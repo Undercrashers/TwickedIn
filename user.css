@@ -1,0 +1,264 @@
+.background1{
+    background-image: url('images/user-background.avif');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+    margin: 10vw auto;
+    border-radius: 2vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    scale:1.5;
+
+}
+
+
+/* Container for the profile section */
+.profile-container1 {
+    display: flex;
+    align-items: center; /* Center items vertically within the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background to improve readability */
+    padding: 1vw;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    color: #333; /* Optional: Change the text color */
+    border:#333 solid 1px;
+}
+
+/* Style for the logo */
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-right: 20px; /* Space between logo and profile info */
+
+}
+
+/* Style for the profile information */
+.profile-info h1 {
+    margin: 0vw 1vw;
+    font-size: 24px; /* Adjust as needed */
+    
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    font-size: 12px; /* Adjust as needed */
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Change the font as needed */
+    background-color: #fff; /* Default background color */
+    color: #333; /* Default text color */
+}
+
+.background {
+    background-color: #6441A4; /* Twitch purple */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container {
+    background-color: #000000; /* White background for profile */
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+.menu-btn {
+    background-color: #9147FF; /* Twitch light purple */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+    background-color: #6441A4; /* Twitch dark purple */
+}
+
+.profile-info {
+    display: flex;
+}
+
+.profile-left {
+    margin-right: 20px;
+    
+}
+
+.profile-left img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profile-right .section {
+    margin-bottom: 20px;
+    font-size: 2.5vw;
+}
+.profile-right .section p {
+    margin-bottom: 20px;
+    font-size: 1.2vw;
+}
+
+.profile-right h3 {
+    color: #6441A4; /* Twitch purple */
+}
+
+/* 
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.background.dark-mode {
+    background-color: #6441A4; /* Twitch purple */
+}
+
+.profile-container.dark-mode {
+    background-color: #444;
+    color: #fff;
+}
+
+.menu-btn.dark-mode {
+    background-color: #9147FF; /* Twitch light purple */
+    color: #fff;
+}
+
+.menu-btn.dark-mode:hover {
+    background-color: #6441A4; /* Twitch dark purple */
+}
+
+.profile-left.dark-mode {
+    border-right: 1px solid #fff; /* White border */
+}
+
+.profile-right .section.dark-mode {
+    border-bottom: 1px solid #fff; /* White border */
+} 
+
+
+
+.card2 {
+    width: 190px;
+    height: 120px;
+    padding: 0.5rem;
+    background: rgba(198, 198, 198, 0.34);
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+    border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+    box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+    transform: skewX(10deg);
+    transition: .4s;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .card2:hover {
+    height: 250px;
+    transform: skew(0deg);
+  }
+  
+  .align {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-self: flex-start;
+  }
+  
+  .red {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff605c;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  }
+  
+  .yellow {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffbd44;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  }
+  
+  .green {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00ca4e;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  }
+  
+  .card2 h1 {
+    text-align: center;
+    margin: 1.3rem;
+    color: rgb(218, 244, 237);
+    text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+  }
+  
+  
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10rem;
+    transition: all 0.02s;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    z-index: 0;
+    box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button:hover {
+    background: rgb(193, 228, 248);
+    color: rgb(33, 0, 85);
+  }
+  
+  .button:active {
+    transform: scale(0.97);
+  }
+  
+
+  
+  @keyframes effect {
+  
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

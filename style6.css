@@ -1,0 +1,196 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main */
+.main {
+    padding: 20px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile__picture img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile__details {
+    flex-grow: 1;
+}
+
+.profile__name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile__headline,
+.profile__location {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.profile__button {
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile__button:hover {
+    background-color: #005582;
+}
+
+/* Connections */
+.connections {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 100%;
+}
+
+.connections h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.connections__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.connection-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.connection-card__picture img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.connection-card__name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.connection-card__headline {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.connection-card__button {
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.connection-card__button:hover {
+    background-color: #005582;
+}
+
+/* Footer */
+.footer {
+    background-color: #283e4a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 190px;
+    height: 20vw;
+    background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    position: relative;
+    margin: auto;
+    font-family: inherit;
+  }
+  
+  .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 1.3em;
+    bottom:10px;
+  }
+  
+  .card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1em;
+  }
+  
+  .card .img img{
+    width: 70px;
+    height: 70px;
+    background: #e8e8e8;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  
+  .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #e8e8e8;
+    color: #111111;
+    font-weight: 600;
+  }
+  
+  .card button:hover {
+    background: #212121;
+    color: #ffffff;
+  }

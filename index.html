@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TwikedIn </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="swiper.css">
+</head>
+<body theme="black">
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <a href="index.html"><img src="assests/Linkdln-logo.png" alt="Twitch Logo"></a>
+    </div>
+    <div class="navbar-links">
+      <a href="company.html" data-title="Company Info's">Company</a>
+      <a href="#tranding" data-title="Trending Topics">Topics</a>
+    </div>
+    
+    <div class="navbar-search">
+      <input type="text" name="text" placeholder="Search" class="input">
+    </div>
+    
+    <button class="Explore-Button">
+      <span class="IconContainer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 156 78" class="telescope">
+          <path fill="url(#paint0_linear_131_19)" d="M10.3968 78C10.6002 78 32 72.831 32 72.831C29.5031 68.7434 27.3945 63.5193 26.0258 57.947C24.6386 52.3381 24.0837 46.7841 24.3982 42L3.38683 47.0957C0.0205717 47.9206 -1.0152 55.4725 1.09333 63.9959C3.05409 72.0061 7.10469 78 10.3968 78Z"></path>
+          <path fill="url(#paint1_linear_131_19)" d="M63.0824 25L34.8099 32.0351C33.7675 32.2957 32.8714 33.0215 32.1582 34.1382C31.6096 34.9943 31.1524 36.0738 30.8049 37.3393C30.5489 38.2513 30.366 39.2563 30.238 40.3544C29.6894 44.7839 30.0734 50.5348 31.5547 56.6207C33.0177 62.7067 35.2854 67.9925 37.7725 71.6587C38.3942 72.5707 39.016 73.371 39.6561 74.0596C40.5339 75.0274 41.43 75.7718 42.3078 76.2743C43.1307 76.7396 43.9536 77 44.74 77C45.0326 77 45.3252 76.9628 45.5995 76.8883L72.5919 70.1698L74 69.8164C69.867 64.1027 66.6484 56.1184 64.7282 48.1527C62.7532 39.9451 62.1497 31.8306 63.0094 25.3166C63.0458 25.2233 63.0643 25.1117 63.0824 25Z"></path>
+          <path fill="url(#paint2_linear_131_19)" d="M155.865 50.9153L144.361 3.54791C143.844 1.43031 141.964 0 139.88 0C139.512 0 139.143 0.0371509 138.774 0.130028L75.0921 15.8448C74.3361 16.0306 73.654 16.4021 73.0271 16.9594C72.1239 17.7581 71.3493 18.9284 70.7411 20.3958C70.3537 21.3246 70.0403 22.3648 69.7823 23.4979C68.4731 29.2935 68.7683 37.7267 70.9621 46.7544C73.2115 55.9863 76.9358 63.7509 80.8447 68.2277C81.6375 69.1194 82.4303 69.8995 83.2229 70.5125C83.4259 70.6795 83.6654 70.8283 83.9051 70.9581C85.6752 71.9798 87.7955 72.2584 89.7865 71.7571L152.492 56.5065C154.962 55.912 156.474 53.4044 155.865 50.9153Z"></path>
+          <defs>
+            <linearGradient gradientUnits="userSpaceOnUse" y2="78" x2="16" y1="42" x1="16" id="paint0_linear_131_19">
+              <stop stop-color="#6A8EF6"></stop>
+              <stop stop-color="#BF8AEB" offset="1"></stop>
+            </linearGradient>
+            <linearGradient gradientUnits="userSpaceOnUse" y2="77" x2="52" y1="25" x1="52" id="paint1_linear_131_19">
+              <stop stop-color="#6A8EF6"></stop>
+              <stop stop-color="#BF8AEB" offset="1"></stop>
+            </linearGradient>
+            <linearGradient gradientUnits="userSpaceOnUse" y2="72" x2="112.5" y1="0" x1="112.5" id="paint2_linear_131_19">
+              <stop stop-color="#6A8EF6"></stop>
+              <stop stop-color="#BF8AEB" offset="1"></stop>
+            </linearGradient>
+          </defs>
+        </svg>
+  
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 104 69" class="tripod">
+          <path stroke-linecap="round" stroke-width="1" stroke="url(#paint0_linear_124_14)" d="M98.4336 63.3406L52 5.99991"></path>
+          <path stroke-linecap="round" stroke-width="1" stroke="url(#paint1_linear_124_14)" d="M52.4336 6L6.00004 63.3407"></path>
+          <path stroke-linecap="round" stroke-width="1" stroke="url(#paint2_linear_124_14)" d="M52 63L52 6"></path>
+          <defs>
+            <linearGradient gradientUnits="userSpaceOnUse" y2="40.5" x2="68" y1="32" x1="77.5" id="paint0_linear_124_14">
+              <stop stop-color="#8E8DF2"></stop>
+              <stop stop-color="#BC8BEC" offset="1"></stop>
+            </linearGradient>
+            <linearGradient gradientUnits="userSpaceOnUse" y2="40.5174" x2="36.4196" y1="32.9922" x1="26.1302" id="paint1_linear_124_14">
+              <stop stop-color="#8E8DF2"></stop>
+              <stop stop-color="#BC8BEC" offset="1"></stop>
+            </linearGradient>
+            <linearGradient gradientUnits="userSpaceOnUse" y2="34.8174" x2="42.7435" y1="34.0069" x1="55.4548" id="paint2_linear_124_14">
+              <stop stop-color="#8E8DF2"></stop>
+              <stop stop-color="#BC8BEC" offset="1"></stop>
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+    </button>
+    
+    
+    <ul class="navbar-links">
+      <li><a href="notification.html" data-title="Notifications"><i class="fa-solid fa-inbox"></i></a></li>
+      <li><a href="connections.html" data-title="Connections"><i class="fas fa-users"></i></a></li>
+      <li><a href="messaging.html" data-title="Messaging"><i class="fas fa-envelope"></i></a></li>
+      <li><a href="jobs.html" data-title="Jobs"><i class="fas fa-briefcase"></i></a></li>
+    </ul>
+  
+    <div class="navbar-profile">
+      <img src="assests/profile-pic.jpg.png" alt="Profile Picture">
+    </div>
+  </nav>
+  
+
+  
+  <div class="container">
+    
+      <div class="left">
+        <!-- Recommended People -->
+        <div class="left-h2"><button id="actionButton"><i class="fas fa-chevron-left"></i></button>
+          <h2>Recommended</h2></div>
+        
+        
+        <ul class="recommended-list">
+          <li>
+            <img class="recommended" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" alt="post.png">
+            <span>John Doe</span>
+          </li>
+          <li>
+            <img class="recommended" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" alt="">
+            <span>Emily Johnson</span>
+          </li>
+          <li>
+            <img class="recommended" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" alt="">
+            <span>Sophia Williams</span>
+          </li>
+          <!-- Add more recommended people as needed -->
+        </ul>
+      <br>
+        <!-- People Online -->
+        <h2>Online</h2>
+        <ul class="online-list">
+          <li>
+            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" alt="">
+            <span>Alice Williams</span>
+          </li>
+          <li>
+            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" alt="post.png">
+            <span> Olivia Smith</span>
+          </li>
+          <li>
+            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" alt="">
+            <span>Sarah Davis</span>
+          </li>
+          <!-- Add more people online as needed -->
+        </ul>
+            <br><br><br>
+        <div class="card1">
+          <div class="img"></div>
+          <span>Latest Reccomendation</span>
+          <p class="info">I’m Walter, a multidisciplinary designer who focuses on telling my clients’ stories visually, through enjoyable and meaningful experiences. I specialize in responsive websites and functional user interfaces.</p>
+          <div class="share">
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+            </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+          </svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+          </svg></a>
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+          <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"></path>
+          </svg></a>
+          </div>
+          <button>Resume</button>
+        </div>
+      </div>
+      
+    
+      <div class="middle">
+        <section id="tranding">
+          <div class="container">
+            
+            <h1 class="text-center section-heading">Trending</h1>
+          </div>
+          <div class="container">
+            <div class="swiper tranding-slider">
+              <div class="swiper-wrapper">
+                
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <img src="images/News1.jpg" alt="Tranding">
+                  </div>
+                  <div class="tranding-slide-content">
+                    <div class="tranding-slide-content-bottom">
+                      <h2 class="food-name">
+                        Sentinals
+                      </h2>
+                      <h3 class="food-rating">
+                        <span>Masters off Madrid</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <img src="images/news2.webp" alt="Tranding">
+                  </div>
+                  <div class="tranding-slide-content">
+                   
+                    <div class="tranding-slide-content-bottom">
+                      <h2 class="food-name">
+                        IIT Bhu
+                      </h2>
+                      <h3 class="food-rating">
+                        <span>Upcoming Events</span>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <img src="images/new3.webp" alt="Tranding">
+                  </div>
+                  <div class="tranding-slide-content">
+                   
+                    <div class="tranding-slide-content-bottom">
+                      <h2 class="food-name">
+                        Olivia
+                      </h2>
+                      <h3 class="food-rating">
+                        <span>is live with new her flaws</span>
+                        
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <img src="images/news4.jpg" alt="Tranding">
+                  </div>
+                  <div class="tranding-slide-content">
+    
+                    <div class="tranding-slide-content-bottom">
+                      <h2 class="food-name">
+                        Sypher Pk
+                      </h2>
+                      <h3 class="food-rating">
+                        <span>Got his personal skin</span>
+                        
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <img src="images/news5.webp" alt="Tranding">
+                  </div>
+                  <div class="tranding-slide-content">
+                    <h1 class="food-price">$15</h1>
+                    <div class="tranding-slide-content-bottom">
+                      <h2 class="food-name">
+                        Cristina
+                      </h2>
+                      <h3 class="food-rating">
+                        <span>Come ~ Lets Hangout</span>
+                        
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <img src="images/news6.png" alt="Tranding">
+                  </div>
+                  <div class="tranding-slide-content">
+                    
+                    <div class="tranding-slide-content-bottom">
+                      <h2 class="food-name">
+                        GPT-4o
+                      </h2>
+                      <h3 class="food-rating">
+                        <span>is out of the box</span>
+                        
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <img src="images/news7.avif" alt="Tranding">
+                  </div>
+                  <div class="tranding-slide-content">
+                    <div class="tranding-slide-content-bottom">
+                      <h2 class="food-name">
+                        Nasa
+                      </h2>
+                      <h3 class="food-rating">
+                        <span>Is getting ready for 2025</span>
+                        
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide-end -->
+              </div>
+    
+              <div class="tranding-slider-control">
+                <div class="swiper-button-prev slider-arrow">
+                  <ion-icon name="arrow-back-outline"></ion-icon>
+                </div>
+                <div class="swiper-button-next slider-arrow">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+    
+            </div>
+          </div>
+        </section>
+    
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="swiper.js"></script>
+        <div class="card">
+            <div class="container1">
+                
+                <div class="img-cont">
+                    <!-- <div class="interactions">
+                        <svg onclick="likeImage()" class="heart" aria-label="Like" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">
+                            <title>Like</title>
+                            <path d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z"></path>
+                        </svg>
+                        <svg class="comment" aria-label="Comment" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">
+                            <title>Comment</title>
+                            <path d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div> -->
+                    <img class="post-img" src="assests/post1.jpeg" />
+                    
+                    <div class="description">
+                      <p class="truncated-description">Microsoft is reportedly launching the next "Call of Duty" game</p>
+                      <p class="full-description"> Microsoft is reportedly launching the next "Call of Duty" game on its subscription service, Game Pass. This bold move, following Microsoft's acquisition of Activision Blizzard, aims to boost engagement and revenue while shaking up the gaming industry. Stay tuned for the official announcement at the Xbox showcase on June 9.
+                        #Microsoft #CallOfDuty #GamePass #GamingNews #Xbox #ActivisionBlizzard #SubscriptionGaming #TechGaming #GameIndustry #FutureOfGaming</p>
+                      <button onclick="toggleDescription()">Show more</button>
+                  </div>
+                    <div class="header1">
+                    <div class="author-img">
+                      <img src="assests/post11.jpeg" alt="">
+                    </div>
+                    <p class="authors"><b>ROHIT KUMAR</b> « 3rd <br>
+                      <span>Branch Head at TSS Software Pt, Ltd. | ERP Consulting & Sup.</span></p>
+                  </div>
+                    
+                    <div class="header">
+                        <input id="user-comment" type="text" placeholder="Add comment..." />
+                        <div onclick="createUserComment()">
+                            <svg aria-label="Share Post" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                <title>Share Post</title>
+                                <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                                <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                    <div id="custom-comment"></div>
+                </div>
+              </div>
+        </div>
+        <div class="card">
+          <div class="container1">
+            <video class="post-img" autoplay loop muted>
+              <source src="images/news3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+
+                  <div class="description">
+                    <p class="truncated-description">Fortnite New Update is Massive ~ it brings three games into one </p>
+                    <p class="full-description"> Fortnite New Update is Massive ~ it brings three games into one. The new update is a collaboration between Fortnite, Rocket League, and Fall Guys. The update will be available on all platforms, including PC, PlayStation, Xbox, and Nintendo Switch. Get ready for a new gaming experience!
+                      #Microsoft #CallOfDuty #GamePass #GamingNews #Xbox #ActivisionBlizzard #SubscriptionGaming #TechGaming #GameIndustry #FutureOfGaming</p>
+                    <button onclick="toggleDescription()">Show more</button>
+                </div>
+                  <div class="header1">
+                  <div class="author-img">
+                    <img src="assests/post11.jpeg" alt="">
+                  </div>
+                  <p class="authors"><b>Mortal is live</b></p>
+                </div>
+                  
+                  <div class="header">
+                      <input id="user-comment" type="text" placeholder="Add comment..." />
+                      <div onclick="createUserComment()">
+                          <svg aria-label="Share Post" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">
+                              <title>Share Post</title>
+                              <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                              <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+                          </svg>
+                      </div>
+                  </div>
+                  <div id="custom-comment"></div>
+              </div>
+          </div>
+    </div>
+
+    
+   
+  
+  <div class="right">
+    <div class="left-h2"><button id="actionButton"><i class="fas fa-chevron-left"></i></button></div>
+    <p>click that</p></div>
+    
+  </div>
+  
+  <footer>
+    <hr>
+    <h3 class="footer">an <i class="fa-brands fa-amazon"></i>mazon company</h3>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
