@@ -1,5 +1,8 @@
 // script.js
 
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const profileImg = document.querySelector('.navbar-profile img');
     const dropdownMenu = document.createElement('div');
