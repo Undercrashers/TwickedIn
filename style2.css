@@ -155,15 +155,18 @@
     outline: none;
     text-align: center;
     width: 200px;
+    height: 50px;
     transition: 0.5s;
   }
   
   .input[type = "text"]:hover {
     width: 240px;
+      height: 50px;
   }
   
   .input[type = "text"]:focus {
     width: 280px;
+      height: 50px;
   }
 
   .Explore-Button {
